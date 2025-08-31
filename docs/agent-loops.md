@@ -1,14 +1,14 @@
-# Agent Loops in Dyad (Kilo Code)
+# Agent Loops in Kilo Code
 
 ## Introduction
 
-This document explains how agent loops work in dyad (Kilo Code), including model selection, available tools, tool execution flow, and the overall agent loop structure. The agent system is designed to handle complex tasks through iterative tool use and user interaction, with built-in safeguards and optimization features.
+This document explains how agent loops work in Kilo Code, including model selection, available tools, tool execution flow, and the overall agent loop structure. The agent system is designed to handle complex tasks through iterative tool use and user interaction, with built-in safeguards and optimization features.
 
 ## Core Concepts
 
 ### What is an Agent Loop?
 
-An agent loop in dyad is the iterative process where:
+An agent loop in Kilo Code is the iterative process where:
 1. The AI model receives a task and context
 2. The model decides which tools to use to accomplish the task
 3. Tools are executed and results are returned
@@ -21,7 +21,7 @@ The loop ensures that complex tasks can be broken down into manageable steps, wi
 
 ### How Models Are Selected
 
-Models in dyad are selected based on several factors:
+Models in Kilo Code are selected based on several factors:
 
 1. **Provider Configuration**: The system supports multiple AI providers including:
    - Anthropic (Claude models)
@@ -66,7 +66,7 @@ The system automatically handles:
 
 ### Tool Categories
 
-Tools in dyad are organized into logical groups:
+Tools in Kilo Code are organized into logical groups:
 
 #### 1. Read Tools
 - `read_file` - Read file contents with line numbers
@@ -439,6 +439,6 @@ Efficient memory usage through:
 
 ## Conclusion
 
-The agent loop system in dyad provides a robust, safe, and efficient way to handle complex AI-powered tasks. Through careful tool design, comprehensive safety mechanisms, and intelligent loop management, the system can handle a wide variety of tasks while maintaining user control and system stability.
+The agent loop system in Kilo Code provides a robust, safe, and efficient way to handle complex AI-powered tasks. Through careful tool design, comprehensive safety mechanisms, and intelligent loop management, the system can handle a wide variety of tasks while maintaining user control and system stability.
 
 The modular design allows for easy extension with new tools, modes, and capabilities while maintaining the core loop structure that ensures reliable task execution.
